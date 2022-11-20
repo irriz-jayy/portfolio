@@ -1,8 +1,29 @@
 .navbar {
   text-decoration: none;
   display: inline-block;
+  float: right;
+  width: -50%;
+  height: 50px;
+}
+
+button {
+  padding: 10px;
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  margin-right: 20px;
 }
 
 a {
   text-decoration: none;
+  font-size: medium;
+  color: black;
+}
+
+body {
+  background-image: url(../images/backgrounds.jpg);
+  background-size: cover;
+}
+
+.main {
+  height: 150px;
 }
